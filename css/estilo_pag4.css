@@ -1,0 +1,79 @@
+section{
+    width: 80%;
+    margin: 100px auto;
+    outline: 2px solid rgb(0, 0, 0);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    
+}
+section h2{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 100px;
+    background-color: rgb(1, 1, 1);
+}
+section figure{
+    outline: 2px solid rgb(0, 0, 0) ;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    
+}
+section figure img{
+    width: 100%;
+    transition: 0.7s;
+}
+section figure figcaption {
+    margin-top: 10px;
+}
+
+.desenfoque:hover img{
+filter:blur(5px);
+}
+.grises:hover img{
+    filter:grayscale(1);
+}
+.sepia:hover img {
+    filter:sepia(1)
+}
+.contraste:hover img{
+    filter: contrast(5);
+}
+.brillo:hover img{
+    filter:brightness(1.3)
+}
+.tono:hover img{
+    filter:hue-rotate(1000deg)
+}
+.opacidad:hover img{
+    filter:opacity(0.5)
+    opacity(0.5)
+}
+.mix:hover img{
+    filter:blur(2px) grayscale(1)
+}
+
+
+.escala:hover img{
+    transform: scale(0.3);
+}
+.girar:hover img{
+    transform: rotate(-90deg);
+}
+.sesgar:hover img{
+    transform: skew(30deg ,30deg);
+}
+.perspectiva:hover img{
+    transform: rotateX(45deg);
+}
+.mix2:hover img{
+    transform: scale(1.3) rotate(-10deg);
+    
+}
+.mix3:hover img{
+    transform:scale(1.3)  
+}

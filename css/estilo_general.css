@@ -1,0 +1,299 @@
+        @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cantata+One&display=swap');
+        /* font-family: 'Bangers', cursive;
+font-family: 'Cantata One', serif; */
+        
+        * {
+            font-family: 'Cantata One', serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .titulo {
+            text-align: center;
+            margin: 20px;
+        }
+        /* barra de navegacion */
+        
+        header {
+            position: fixed;
+            top: 0;
+            left: 0%;
+            z-index: 9999;
+        }
+        
+        header ul {
+            display: flex;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: 'Bangers', cursive;
+        }
+        
+        body {
+            background-color: rgba(224, 221, 224, 0.606);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        header {
+            background-color: rgba(0, 0, 0, 0.784);
+            width: 100%;
+            height: 100px;
+            display: flex;
+        }
+        
+        header li {
+            list-style-type: none;
+            float: left;
+            height: 80px;
+        }
+        
+        header ul li a {
+            text-align: center;
+            border: rgb(0, 0, 0) 2px solid;
+            border-radius: 20px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .navbar-nav {
+            width: 100%;
+            justify-content: flex-end;
+        }
+        
+        .desplegable {
+            overflow: hidden;
+        }
+        
+        .dropdown-menu {
+            background-color: none;
+        }
+        
+        .navbar-brand {
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        .navbar-brand img {
+            height: 100%;
+            object-fit: cover;
+            width: 100px;
+        }
+        
+        header nav ul {
+            list-style: none;
+            display: flex;
+            height: 100%;
+        }
+        
+        header nav ul li {
+            margin: 5px;
+            display: flex;
+            align-items: center;
+        }
+        
+        header nav ul li a {
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+            text-decoration: none;
+        }
+        
+        .gw {
+            margin: auto;
+            width: 20%;
+            margin-bottom: 20px;
+        }
+        
+        .gw h1 {
+            font-size: 50px;
+        }
+        
+        .gw h2 {}
+        .ubicacion{
+            align-items: center;
+            background-color: rgb(255, 145, 0);
+            display: flex;
+            justify-content: center;
+        }
+        .ubicacion p{
+            width: 60%;
+        }
+
+        .mapa{
+            height: 500px;
+        }
+        .mapayot{
+            height: 100%;
+        }
+
+        footer{
+            width: 100%;
+            padding: 0;
+            
+        }
+
+        footer aside {
+            width: 60%;
+            height: 100%;
+        }
+        
+        footer ul {
+            justify-content: end;
+            display: flex;
+            list-style-type: none;
+            width: 100%;
+            height: 100%;
+        }
+        
+        footer ul li {
+            height: 100%;
+            width: 100px;
+            margin: 0 5%;
+        }
+        
+        footer ul li a {
+            display: flex;
+            text-decoration: none;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            transition: 0.6s;
+            text-align: center;
+        }
+        
+        footer ul li a:hover {
+            color: rgb(0, 0, 0)
+        }
+        /* FOOTER */
+        
+        footer .numero a:hover {
+            background-color: red;
+        }
+        
+        footer .numero img {
+            height: 35px;
+        }
+        
+        .coll {
+            background-color: black;
+        }
+        
+        .coll .numero a {
+            background-color: white;
+        }
+        
+        .mensaje {
+            background: url(../fotos-slider/blex4.jpg);
+            display: flex;
+            justify-content: center;
+            background-size: contain;
+        }
+        
+        .mensajec {
+            width: 60%;
+            background-color: rgba(26, 26, 26, 0.493);
+            color: white;
+        }
+        
+        .boton_enviar {
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            border-radius: 5px;
+            color: black;
+            text-decoration: none;
+            transition: 0, 2s;
+        }
+        
+        .boton_enviar:hover {
+            background-color: black;
+            color: white;
+        }
+        
+        .figura {
+            height: 400px;
+            margin: 200px 0;
+        }
+        
+        .cuadradito {
+            height: 100%;
+            background-color: black;
+            color: white;
+        }
+        
+        .cuadradito img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .modal-body img {
+            width: 100%;
+        }
+        
+        .fotos {
+            width: 70%;
+        }
+        
+        .fotos figure {
+            height: 250px;
+        }
+        
+        .fotos figure div {
+            overflow: hidden;
+            height: 100%;
+        }
+        
+        .fotos figure div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .mapa {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        iframe {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .parte_texto_img {
+            height: 200px;
+            margin: 20px 0;
+        }
+        
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .nomb {
+            justify-content: space-around;
+        }

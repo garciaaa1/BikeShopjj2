@@ -1,0 +1,51 @@
+
+.contenido{
+    background-color: rgba(255, 255, 255, 0.994);
+    width: 90%;
+    min-height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.izq{
+     outline: 2px solid rgb(255, 255, 255);
+    }
+
+.der{ 
+    outline: 2px solid rgb(255, 255, 255);
+}
+
+.der p{ 
+    outline: 2px solid rgb(251, 249, 249);
+    order: 1;
+}
+.der img{ outline: 2px solid rgb(255, 255, 255);
+order: 2;
+}
+
+section ul{
+    margin: 0px 20px;
+    flex-wrap: wrap;
+    width: 47%;
+}
+section ul li{
+    outline: 2px solid rgb(0, 4, 243);
+    border-bottom: 2px solid rgb(17, 0, 255);
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+section ul li h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+section ul li img {
+    width: 30%;
+} 
+section ul li p {
+    width: 60%;
+}
+section ul li p a{}

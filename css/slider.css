@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mascara{
+  
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mascara .slider{
+    width: 500%;
+    height: 100%;
+    position: relative;
+    display: flex;
+
+    animation-name: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.mascara .slider .marco{
+    width: 20%;
+    height: 100%;
+}
+
+.mascara .slider .marco img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes slider{
+    0%{left: 0%;}
+    15%{left: -100%;}
+    25%{left: -100%;}
+    40%{left: -200%;}
+    50%{left: -200%;}
+    65%{left: -300%;}
+    75%{left: -300%;}
+    90%{left: -400%;}
+    100%{left: -400%;}
+}
